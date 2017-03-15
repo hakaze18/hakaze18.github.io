@@ -1,0 +1,112 @@
+body {
+    background-color: #385f99;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-daftar {
+    width: 450px;
+    margin: 0 auto;
+    background-color: #386899;
+    border-style: solid;
+    border-color: #245a92;
+    padding: 12px 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.form-heading {
+    font-size: 1.5em;
+    margin-bottom: 3px;
+}
+.form-daftar fieldset {
+    border: solid;
+    border-color: #fff;
+}
+.form-daftar input {
+    display: block;
+    margin-bottom: 20px;
+}
+.form-daftar label {
+    display: block;
+    margin-bottom: 10px; 
+}
+.form-daftar input[type="text"] {
+    width: 95%;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+.form-daftar textarea {
+    width: 95%;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+.form-daftar input[type="date"]{
+    border-radius: 5px;
+}
+.form-daftar input[type="radio"] {
+    display: inline;
+}
+.form-daftar textarea {
+    display: block;
+}
+.form-daftar input[type="submit"] {
+    margin-top: 20px;
+    margin-right: 10px;
+    display: inline;
+    border: 0 none;
+    padding: 5px 15px; 
+    border-radius: 5px;
+    background: #245a92;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+}
+.form-daftar input[type="reset"] {
+    margin-top: 20px;
+    display: inline;
+    border: 0 none;
+    padding: 5px 15px; 
+    border-radius: 5px;
+    background: #245a92;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+}
+.gambar{
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+.gambar:hover .overlay {
+    opacity: 1;
+}
+img {
+    display: block;
+    width: 150px;
+    height: auto;
+    margin-top: 80px;
+    border-radius: 500px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
