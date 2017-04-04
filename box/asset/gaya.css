@@ -1,0 +1,284 @@
+body {
+    background: url(bg.jpg) repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+#wadah{
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    background: #FFF;
+} 
+
+/* CSS untuk header*/
+
+.header{
+    height: 400px;
+    background: url(wpp.jpg) no-repeat;
+}
+.header-top{
+    background-color: #384254;
+	height: 50px;
+}
+.header-top .header-top-batas {
+	text-align: center;
+	margin: 0 auto;
+}
+.menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+	line-height: 20px;
+	float: left;
+    color: #fefefe;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+	padding: 0 5px;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: #fb326f;
+}
+#pencari{
+    margin: 10px;
+    float: right;
+}
+#pencari input[type="text"]{
+    width: 100%;
+    padding: 6px 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.judul{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+}
+.judul h1{
+    font-size: 62px;
+    color: #eaeaea;
+    padding: 8px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.judul p{
+    display: inline-block;
+    background: rgba(174,214,238,0.30);
+    font-size: 16px;
+    color: #384254;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    padding: 5px 15px;
+}
+
+/* CSS untuk konten */
+
+.main{
+    min-height: calc(50vh - 30px);
+    margin: 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454; 
+    font-size: 12px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.konten{
+    display: inline-block;
+    width: 65%;
+    float: left;
+    padding: 20px;
+}
+.konten-h2{
+    color: #eaeaea;
+    border: 1px solid #384254;
+    background: #384254;
+    padding: 2px;
+}
+#Daftar{
+    width: 800px;
+}
+#Daftar h2{
+    color: #eaeaea;
+    border: 1px solid #384254;
+    background: #384254;
+    padding: 2px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    border-radius: 8px;
+    font-size: 2em;
+}
+#regis{
+    width: 500px;
+    margin: 30px auto;
+}
+#Daftar #regis form input{
+    display: block;
+    padding: 3px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+#Daftar #regis form input[type="radio"]{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#Daftar #regis form input[type="checkbox"]{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#Daftar #regis form input[type="submit"]{
+    background: #fb326f;
+    color: #eaeaea;
+    display: inline-block;
+    padding: 6px 9px;
+    margin: 0 auto;
+}
+#Daftar #regis form input[type="reset"]{
+    background: #fb326f;
+    color: #eaeaea;
+    display: inline-block;
+    padding: 6px 9px;
+    margin: 0 auto;
+}
+#tombol{
+    width: 200px;
+    margin: 0 auto;
+}
+textarea{
+    margin: 5px;
+    display: block;
+    padding: 3px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+label {
+    font-size: 14px;
+    display: block;
+    float:left;
+    width:15%;
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:right;
+}
+select{
+    margin-bottom: 7px;
+    padding: 3px 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.exp{
+    background: #e6e9ec;
+    width: 100%;
+    height: 320px;
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.exp-h2{
+    color: #384254;
+    margin: 30px 0 0 0;
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+.exp-p{
+    color: #384254;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.konten-samping{
+    display: inline-block;
+    width: 20%;
+    float: right;
+}
+.side-h2{
+    color: #eaeaea;
+    border: 1px solid #384254;
+    background: #384254;
+    padding: 2px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+.Login{
+    padding: 5px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    background: #e6e9ec;
+    border: 1px solid #e6e9ec;
+    border-radius: 8px;
+}
+#login-wrap{
+    margin: 10px;
+}
+.Login input{
+    display: block;
+    margin: 5px 0 3px 0;
+    border: 1px solid #ccc;
+    padding: 4px 4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.Login input[type="submit"]{
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-left: 70px;
+    display: block;
+    background: #fb326f;
+    color: #fefefe;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.porto{
+    padding: 5px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    background: #e6e9ec;
+    border: 1px solid #e6e9ec;
+    border-radius: 8px;
+}
+#porto-wrap{
+    margin: 10px;
+}
+#porto-wrap a{
+    color: #384254;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #384254;
+}
+#porto-wrap a:hover{
+    color: #e6e9ec;
+    background: #384254;
+}
+
+/* CSS untuk footer */
+
+.footer {
+    clear: both;
+    height: 30px;
+    margin: 30px 0 0 0;
+    background: #384254;
+}
+.footer p{
+    padding: 5px;
+    color: #fefefe;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+} 
